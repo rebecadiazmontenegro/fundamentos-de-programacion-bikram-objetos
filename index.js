@@ -1,17 +1,17 @@
 //Declaración
 
-const coche = {
+const Coche = {
     marca: "Toyota",
     modelo: "Prius",
     matricula: "4356 BGA",
 
 };
 
-const casa = {
+const Casa = {
     codPostal: 28982,
     calle: "Isabel II",
     portal: 34,
-    pisa: 2,
+    piso: 2,
 };
 
 const FullStackDeveloper = {
@@ -42,7 +42,7 @@ const RGB = [Led.rojo, Led.verde, Led.azul];
 //Modificación de propiedades
 
 Portatil.modelo = "P345";
-Concierto.cartelera.push("Guns N'Roses");
+Concierto.cartelera.push("Guns N' Roses");
 Concierto.fecha = new Date();
 
 Impresora.imprimiendo = {
@@ -66,12 +66,12 @@ const Persona = {
 };
 
 const Avion = {
-    numPasageros: 345,
+    numPasajeros: 345,
     despegar: function(){
-        console.log("Despegando");
+        console.log("despegando");
     },
     volar: function(){
-        console.log("Llegando al destino");
+        console.log("llegando al destino");
     },
     aterrizar: function(){
         console.log("aterrizando");
@@ -100,7 +100,7 @@ const especificaciones = Movil["especificaciones"];
 
 Grupo.numIntegrantes = 5;
 Pantalla.dimensiones = "1920x1080";
-if(led.encendido){
+if(Led.encendido){
     Led.encendido = false;
 } else {
     Led.encendido = true;
